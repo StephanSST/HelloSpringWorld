@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TomcatController {
 
-  @RequestMapping("/")
-  public String index() {
-    return "Greetings from Spring Boot! Hello Again!";
+  @RequestMapping("/version")
+  public String showVersion() {
+    return "Greetings from Spring Boot! v1.0";
   }
 
 }
