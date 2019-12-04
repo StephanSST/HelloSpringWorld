@@ -8,7 +8,7 @@ public class TomcatController {
 
   @RequestMapping("/version")
   public String showVersion() {
-    return "Greetings to Michael from Spring Boot! v1.0";
+    return "Greetings to Integration Service Team from Spring Boot! v1.0";
   }
 
 }
